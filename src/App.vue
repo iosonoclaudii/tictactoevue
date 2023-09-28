@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import TicTacToeGame from './components/TicTacToeGame';
+import TicTacToeGame from "./components/TicTacToeGame";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TicTacToeGame
-  }
+    TicTacToeGame,
+  },
 };
 </script>
 
@@ -19,7 +19,6 @@ export default {
 body {
   background-color: #d8deff;
 }
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
